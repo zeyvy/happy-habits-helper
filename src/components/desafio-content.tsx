@@ -30,11 +30,27 @@ export const foundations = [
 ];
 
 export const reviews = [
-  { name: "Ana Lima, 43 anos", result: "Perdeu 4.8kg em 7 dias", quote: '"Tentei de tudo nos últimos anos e nada funcionava. Com o 7D Seca & Desincha entendi finalmente por que eu não conseguia emagrecer — era uma questão hormonal. Em 7 dias perdi 4,8kg e me sinto uma nova pessoa!"' },
-  { name: "Fernanda Costa, 38 anos", result: "Perdeu 5kg em 7 dias", quote: '"Meu marido não acreditava quando me viu na balança depois de 7 dias! Perdi exatamente 5kg sem passar fome, sem malhar duas horas por dia. Os treinos são curtinhos e a Camila explica tudo muito bem."' },
-  { name: "Márcia Souza, 51 anos", result: "Perdeu 3.5kg em 7 dias", quote: '"Com mais de 50 anos achei que emagrecer era impossível. A Camila me mostrou que o problema eram meus hormônios — não minha força de vontade. 3,5kg em 7 dias e a barriga sumindo é milagre para mim!"' },
-  { name: "Juliana Reis, 35 anos", result: "Perdeu 4.2kg em 7 dias", quote: '"Estava travada no mesmo peso há dois anos! Dois anos! Em uma semana com o 7D Seca & Desincha saí do lugar — 4,2kg a menos, sem cansaço, com mais energia do que nunca e dormindo muito melhor."' },
-  { name: "Rosana Alves, 47 anos", result: "Perdeu 5kg em 7 dias", quote: '"Sempre pensei que era frescura quando falavam em hormônios. Mas 5kg em 7 dias me convenceu! E o melhor: os compulsões por doces que me atormentavam há anos simplesmente sumiram. Não acredito até hoje!"' },
+  {
+    name: "Camila, 38 anos",
+    result: "Evolução percebida em 7 dias",
+    beforeImage: "https://imgs.search.brave.com/RANtUqrYquw9lPFt0LZJ1RuNjZ6_JBwXj2PWkOqdYKY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcuZnJlZXBpay5jb20vcHJlbWl1bS1waG90by9yZWFsLXBob3RvLXdvbWFuLWJlZm9yZS1hZnRlci13ZWlnaHQtbG9zc183NDYzMTgtMTIwMC5qcGc_c2VtdD1haXNfaHlicmlkJnc9NzQwJnE9ODA",
+    afterImage: "https://imgs.search.brave.com/COKdcd--XVuYs6_HOyaEMJ0udxs4c8B-hMMu9rLAGeo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iaWdwaWN0dXJlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIwLzA1LzE1ODQ5NjI5NDdfM2M1OWRjMDQ4ZTg4NTAyNDNiZTgwNzlhNWM3NGQwNzkucG5n",
+    quote: '"Eu já tava quase desistindo, sério 😩 Fiz o protocolo direitinho e em poucos dias já senti a barriga menos inchada. Obg, Camila, por explicar tudo de um jeito mto fácil!"',
+  },
+  {
+    name: "Juliana, 42 anos",
+    result: "Evolução percebida em 7 dias",
+    beforeImage: "https://imgs.search.brave.com/Bs6lUZxAiw0msDAPUgVcikD5DtCE8v_1X3PjIyaO2zo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcuZnJlZXBpay5jb20vcHJlbWl1bS1waG90by90d28tc2hvdHMtd29tYW4td2l0aC1i/ZWxseS13aXRoLWV4Y2Vzcy1mYXQtdG9uZWQtc2xpbS1zdG9tYWNoLWJlZm9yZS1hZnRlci1sb3Npbmctd2VpZ2h0XzQwNzM0OC0yODQ1LmpwZz9zZW10PWFpc19oeWJyaWQmdz03NDAmcT04MA",
+    afterImage: "https://imgs.search.brave.com/UiLmlLeE-dhX6Jft20Xd1aKX4IpIsdRSD4dH61EVBK4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly80dG9sb2xvLnJ1L3NpdGVzL2RlZmF1bHQvZmlsZXMvaW1hZ2VzLzIwMTcyNjEyMTI0NDAyLmpwZw",
+    quote: '"O que mais gostei foi que não precisei inventar moda. Era só seguir o passo a passo. Em 7 dias eu já tava me sentindo mais leve e com mto mais disposição. Valeu demais!"',
+  },
+  {
+    name: "Patrícia, 47 anos",
+    result: "Evolução percebida em 7 dias",
+    beforeImage: "https://imgs.search.brave.com/RANtUqrYquw9lPFt0LZJ1RuNjZ6_JBwXj2PWkOqdYKY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcuZnJlZXBpay5jb20vcHJlbWl1bS1waG90by9yZWFsLXBob3RvLXdvbWFuLWJlZm9yZS1hZnRlci13ZWlnaHQtbG9zc183NDYzMTgtMTIwMC5qcGc_c2VtdD1haXNfaHlicmlkJnc9NzQwJnE9ODA",
+    afterImage: "https://imgs.search.brave.com/Bs6lUZxAiw0msDAPUgVcikD5DtCE8v_1X3PjIyaO2zo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcuZnJlZXBpay5jb20vcHJlbWl1bS1waG90by90d28tc2hvdHMtd29tYW4td2l0aC1i/ZWxseS13aXRoLWV4Y2Vzcy1mYXQtdG9uZWQtc2xpbS1zdG9tYWNoLWJlZm9yZS1hZnRlci1sb3Npbmctd2VpZ2h0XzQwNzM0OC0yODQ1LmpwZz9zZW10PWFpc19oeWJyaWQmdz03NDAmcT04MA",
+    quote: '"Eu vivia começando dieta na segunda e largando na quarta kkk. Dessa vez foi diferente pq tinha tudo organizado. Tô mto feliz com a evolução e já quero continuar!"',
+  },
 ];
 
 export const products = [
