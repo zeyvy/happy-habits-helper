@@ -1,6 +1,6 @@
 import { Check, HelpCircle, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { benefits, causes, foundations, products, questions, reviews } from "./desafio-data";
+import { benefits, causes, foundations, products, questions, reviews } from "./desafio-content.tsx";
 
 interface CtaProps { onClick: () => void; children: React.ReactNode }
 
