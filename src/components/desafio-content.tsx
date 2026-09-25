@@ -54,8 +54,34 @@ export const reviews = [
 ];
 
 export const products = [
-  { icon: "🏋️", value: "R$79,90", title: "Treino de 7 Dias Completo", text: "7 treinos de apenas 20 minutos, entregues dia a dia pelo WhatsApp. Sem academia, sem equipamentos, resultados reais." },
-  { icon: "🥦", value: "R$89,90", title: "Plano Alimentar de 3 Dias para Aceleração Metabólica", text: "Um guia alimentar pensado para o metabolismo feminino, que acelera a queima de gordura sem passar fome." },
-  { icon: "💬", value: "R$59,90", title: "Suporte Diário com a Camila no WhatsApp", text: "Acesso ao grupo exclusivo onde a Camila responde dúvidas, envia motivação diária e garante que você chegue ao fim do desafio." },
-  { icon: "🦵", value: "R$59,90", title: "Treinos para Dores no Joelho e Hérnia de Disco", text: "Adaptações especiais para mulheres com limitações físicas — ninguém fica de fora do desafio." },
+  {
+    icon: "🍽️",
+    value: "R$47,00",
+    title: "PROTOCOLO ALIMENTAR 7D",
+    text: "Cardápio organizado para os 7 dias, com refeições práticas e opções de substituição para você saber exatamente o que fazer sem ficar improvisando.",
+  },
+  {
+    icon: "🏋️",
+    value: "R$67,00",
+    title: "7 TREINOS DE ATÉ 20 MINUTOS",
+    text: "Um treino guiado para cada dia do protocolo, com sessões curtas para encaixar na rotina sem precisar passar horas na academia.",
+  },
+  {
+    icon: "✅",
+    value: "R$37,00",
+    title: "7 MISSÕES DIÁRIAS",
+    text: "Uma missão prática por dia para manter você executando o protocolo, acompanhada de um checklist simples para marcar cada etapa concluída.",
+  },
+  {
+    icon: "📈",
+    value: "R$27,00",
+    title: "MEU PROGRESSO",
+    text: "Área exclusiva para registrar peso, medidas e fotos, acompanhar os dias concluídos e comparar sua evolução ao longo do protocolo.",
+  },
+  {
+    icon: "🗓️",
+    value: "R$37,00",
+    title: "JORNADA GUIADA DE 7 DIAS",
+    text: "Uma sequência organizada em duas fases para você sempre saber o que fazer hoje, qual é sua missão e qual será o próximo passo.",
+  },
 ];
