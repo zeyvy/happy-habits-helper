@@ -26,7 +26,7 @@ export function BenefitsSection({ onCta }: { onCta: () => void }) {
 }
 
 export function FoundationsSection({ onCta }: { onCta: () => void }) {
-  return <section className="page-section"><p className="eyebrow">O método</p><h2>O que faz o Desafio 7D funcionar de verdade</h2><p className="section-copy">Conheça os fundamentos do método criado pela Polly Takao para o corpo feminino.</p><div className="grid gap-4 md:grid-cols-3">{foundations.map((item) => <article key={item.number} className="glass rounded-xl p-6"><span className="font-mono text-xs text-primary">{item.number}</span><h3 className="mt-3 text-xl font-semibold">{item.title}</h3><p className="mt-3 text-sm leading-relaxed text-muted-foreground">{item.text}</p><p className="mt-4 text-sm font-medium text-primary">{item.note}</p></article>)}</div><div className="mt-7"><Cta onClick={onCta}>CONHECER O MÉTODO COMPLETO</Cta></div></section>;
+  return <section className="page-section"><p className="eyebrow">O método</p><h2>O que faz o Desafio 7D funcionar de verdade</h2><p className="section-copy">Conheça os fundamentos do método criado pela Camila Nogueira para o corpo feminino.</p><div className="grid gap-4 md:grid-cols-3">{foundations.map((item) => <article key={item.number} className="glass rounded-xl p-6"><span className="font-mono text-xs text-primary">{item.number}</span><h3 className="mt-3 text-xl font-semibold">{item.title}</h3><p className="mt-3 text-sm leading-relaxed text-muted-foreground">{item.text}</p><p className="mt-4 text-sm font-medium text-primary">{item.note}</p></article>)}</div><div className="mt-7"><Cta onClick={onCta}>CONHECER O MÉTODO COMPLETO</Cta></div></section>;
 }
 
 export function TimelineSection() {
@@ -34,7 +34,7 @@ export function TimelineSection() {
 }
 
 export function ReviewsSection({ onCta }: { onCta: () => void }) {
-  return <section className="page-section"><p className="eyebrow">Histórias das alunas</p><h2>Resultados reais de mulheres como você</h2><p className="section-copy">Mais de <strong>700.000 alunas</strong> já transformaram seus corpos com o método da Polly</p><div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{reviews.map((review) => <figure key={review.name} className="glass rounded-xl p-5"><div className="text-sm text-coral" aria-label="5 estrelas">★★★★★</div><figcaption className="mt-4 font-semibold">{review.name}</figcaption><p className="mt-1 text-xs font-semibold text-success">✓ {review.result}</p><blockquote className="mt-4 text-sm leading-relaxed text-muted-foreground">{review.quote}</blockquote></figure>)}</div><div className="mt-7"><Cta onClick={onCta}>QUERO SER A PRÓXIMA</Cta></div></section>;
+  return <section className="page-section"><p className="eyebrow">Histórias das alunas</p><h2>Resultados reais de mulheres como você</h2><p className="section-copy">Mais de <strong>700.000 alunas</strong> já transformaram seus corpos com o método da Camila</p><div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{reviews.map((review) => <figure key={review.name} className="glass rounded-xl p-5"><div className="text-sm text-coral" aria-label="5 estrelas">★★★★★</div><figcaption className="mt-4 font-semibold">{review.name}</figcaption><p className="mt-1 text-xs font-semibold text-success">✓ {review.result}</p><blockquote className="mt-4 text-sm leading-relaxed text-muted-foreground">{review.quote}</blockquote></figure>)}</div><div className="mt-7"><Cta onClick={onCta}>QUERO SER A PRÓXIMA</Cta></div></section>;
 }
 
 export function OfferSection({ onCta }: { onCta: () => void }) {
