@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import camilaImage from "@/assets/camila-nogueira.jpg";
 import { Cta } from "./desafio-sections";
 
@@ -6,5 +7,18 @@ export function ProfileSection() {
 }
 
 export function FinalCta({ onCta }: { onCta: () => void }) {
-  return <section className="mx-auto max-w-5xl px-4 py-12 text-center"><div className="glass rounded-2xl p-7 sm:p-12"><span className="eyebrow">⏰ Vagas Limitadas — Início Segunda-feira</span><h2 className="mt-4">Este é o momento de escolher:</h2><p className="mx-auto mt-5 max-w-2xl text-sm leading-relaxed text-muted-foreground">Continuar lutando contra seu próprio corpo, seguindo dietas que ignoram seus hormônios, se sentindo frustrada e sem resultados…</p><p className="font-display my-4 text-4xl text-primary">OU</p><p className="mx-auto max-w-2xl font-semibold">Finalmente trabalhar COM seus hormônios e ver resultados em apenas 7 dias.</p><p className="mt-3 text-sm text-muted-foreground">📅 Início: próxima Segunda-feira</p><div className="mt-7"><Cta onClick={onCta}>QUERO GARANTIR MINHA VAGA AGORA →</Cta></div></div></section>;
+  const [secondsLeft, setSecondsLeft] = useState(15 * 60);
+
+  useEffect(() => {
+    const timer = window.setInterval(() => {
+      setSecondsLeft((current) => (current > 0 ? current - 1 : 0));
+    }, 1000);
+
+    return () => window.clearInterval(timer);
+  }, []);
+
+  const minutes = String(Math.floor(secondsLeft / 60)).padStart(2, "0");
+  const seconds = String(secondsLeft % 60).padStart(2, "0");
+
+  return <section className="mx-auto max-w-5xl px-4 py-12 text-center"><div className="glass rounded-2xl border border-primary/30 p-7 sm:p-12"><span className="eyebrow">⏰ VAGAS LIMITADAS — INSCRIÇÕES ABERTAS AGORA</span><h2 className="mt-4">Este é o momento de escolher:</h2><p className="mx-auto mt-5 max-w-2xl text-sm leading-relaxed text-muted-foreground">Continuar lutando contra seu próprio corpo, seguindo dietas que ignoram seus hormônios, se sentindo frustrada e sem resultados…</p><p className="font-display my-4 text-4xl text-primary">OU</p><p className="mx-auto max-w-2xl font-semibold">Finalmente trabalhar COM seus hormônios e começar sua transformação em apenas 7 dias.</p><div className="mx-auto mt-7 max-w-sm rounded-xl border border-primary/30 bg-primary/10 p-4"><p className="text-xs font-semibold uppercase tracking-wide text-primary">Garanta sua condição atual antes que o tempo acabe</p><p className="mt-2 font-mono text-4xl font-bold tracking-wider text-foreground" role="timer" aria-live="polite">{minutes}:{seconds}</p><p className="mt-1 text-xs text-muted-foreground">A disponibilidade pode ser encerrada após o contador.</p></div><p className="mt-5 text-sm font-semibold text-coral">🔥 Outras mulheres estão garantindo acesso ao 7D enquanto as vagas estão disponíveis.</p><div className="mt-7"><Cta onClick={onCta}>QUERO GARANTIR MINHA VAGA AGORA →</Cta></div><p className="mt-3 text-xs text-muted-foreground">🔒 Pagamento seguro • Acesso imediato após a confirmação</p></div></section>;
 }
