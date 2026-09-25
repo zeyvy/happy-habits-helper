@@ -20,5 +20,82 @@ export function FinalCta({ onCta }: { onCta: () => void }) {
   const minutes = String(Math.floor(secondsLeft / 60)).padStart(2, "0");
   const seconds = String(secondsLeft % 60).padStart(2, "0");
 
+  return (
+    <section className="mx-auto max-w-5xl px-4 py-12">
+      <div className="glass overflow-hidden rounded-2xl border border-primary/30">
+        <div className="border-b border-border bg-primary/10 px-6 py-5 text-center sm:px-10">
+          <span className="eyebrow">
+            ⏰ VAGAS LIMITADAS — INSCRIÇÕES ABERTAS AGORA
+          </span>
 
+          <p className="mt-2 text-sm font-semibold text-coral">
+            🔥 Garanta seu acesso enquanto as vagas estão disponíveis.
+          </p>
+        </div>
+
+        <div className="grid gap-8 p-6 sm:p-10 md:grid-cols-[1.1fr_.9fr] md:items-center">
+          <div>
+            <p className="eyebrow">Uma decisão para a sua rotina</p>
+
+            <h2 className="mt-3 text-3xl sm:text-4xl">
+              Este é o momento de escolher:
+            </h2>
+
+            <div className="mt-6 space-y-4">
+              <div className="rounded-xl border border-border bg-background/30 p-4">
+                <p className="text-sm leading-relaxed text-muted-foreground">
+                  Continuar lutando contra seu próprio corpo, seguindo dietas
+                  que ignoram seus hormônios, se sentindo frustrada e sem
+                  resultados…
+                </p>
+              </div>
+
+              <p className="text-center font-display text-4xl text-primary">
+                OU
+              </p>
+
+              <div className="rounded-xl border border-primary/30 bg-primary/10 p-4">
+                <p className="font-semibold leading-relaxed">
+                  Finalmente trabalhar COM seus hormônios e começar sua
+                  transformação em apenas 7 dias.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="rounded-2xl border border-primary/30 bg-primary/10 p-5 text-center sm:p-7">
+            <p className="eyebrow">
+              Últimos minutos para garantir sua condição
+            </p>
+
+            <p className="mt-3 text-sm font-semibold">
+              Garanta sua condição atual antes que o tempo acabe
+            </p>
+
+            <p
+              className="mt-4 font-mono text-5xl font-bold tracking-wider text-foreground"
+              role="timer"
+              aria-live="polite"
+            >
+              {minutes}:{seconds}
+            </p>
+
+            <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
+              A disponibilidade pode ser encerrada após o contador.
+            </p>
+
+            <div className="mt-6">
+              <Cta onClick={onCta}>
+                QUERO GARANTIR MINHA VAGA AGORA →
+              </Cta>
+            </div>
+
+            <p className="mt-3 text-xs text-muted-foreground">
+              🔒 Pagamento seguro • Acesso imediato após a confirmação
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
