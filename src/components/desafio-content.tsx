@@ -32,7 +32,7 @@ export const foundations = [
 export const reviews = [
   { name: "Ana Lima, 43 anos", result: "Perdeu 4.8kg em 7 dias", quote: '"Tentei de tudo nos últimos anos e nada funcionava. Com o Desafio 7D entendi finalmente por que eu não conseguia emagrecer — era uma questão hormonal. Em 7 dias perdi 4,8kg e me sinto uma nova pessoa!"' },
   { name: "Fernanda Costa, 38 anos", result: "Perdeu 5kg em 7 dias", quote: '"Meu marido não acreditava quando me viu na balança depois de 7 dias! Perdi exatamente 5kg sem passar fome, sem malhar duas horas por dia. Os treinos são curtinhos e a Camila explica tudo muito bem."' },
-  { name: "Márcia Souza, 51 anos", result: "Perdeu 3.5kg em 7 dias", quote: '"Com mais de 50 anos achei que emagrecer era impossível. A Polly me mostrou que o problema eram meus hormônios — não minha força de vontade. 3,5kg em 7 dias e a barriga sumindo é milagre para mim!"' },
+  { name: "Márcia Souza, 51 anos", result: "Perdeu 3.5kg em 7 dias", quote: '"Com mais de 50 anos achei que emagrecer era impossível. A Camila me mostrou que o problema eram meus hormônios — não minha força de vontade. 3,5kg em 7 dias e a barriga sumindo é milagre para mim!"' },
   { name: "Juliana Reis, 35 anos", result: "Perdeu 4.2kg em 7 dias", quote: '"Estava travada no mesmo peso há dois anos! Dois anos! Em uma semana com o Desafio 7D saí do lugar — 4,2kg a menos, sem cansaço, com mais energia do que nunca e dormindo muito melhor."' },
   { name: "Rosana Alves, 47 anos", result: "Perdeu 5kg em 7 dias", quote: '"Sempre pensei que era frescura quando falavam em hormônios. Mas 5kg em 7 dias me convenceu! E o melhor: os compulsões por doces que me atormentavam há anos simplesmente sumiram. Não acredito até hoje!"' },
 ];
