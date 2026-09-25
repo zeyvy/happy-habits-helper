@@ -201,6 +201,25 @@ h2 { margin-top: 0.5rem; font-size: 1.875rem; line-height: 1.15; font-weight: 60
 }
 
 .review-marquee {
+  animation: review-marquee-scroll 36s linear infinite;
+  will-change: transform;
+}
+
+.review-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes review-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.review-marquee {
   animation: review-marquee 32s linear infinite;
 }
 
