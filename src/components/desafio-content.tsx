@@ -24,9 +24,9 @@ export const benefits = [
 ];
 
 export const foundations = [
-  { number: "01", title: "Treino Estratégico", text: "Exercícios de baixa intensidade e alta eficiência, desenhados especificamente para o metabolismo feminino, com duração de apenas 20 minutos por dia.", note: "Sem academia. Sem equipamentos caros." },
-  { number: "02", title: "Suporte em Grupo", text: "Acesso a um grupo exclusivo no WhatsApp com a Camila Nogueira e uma equipe especializada, com suporte diário para garantir que você não perca nenhum treino nem motivação.", note: "Você nunca estará sozinha nessa jornada." },
-  { number: "03", title: "Regulação Hormonal", text: "O método atua diretamente nos hormônios femininos — cortisol, insulina, leptina e estrogênio — para que seu corpo entre em modo de emagrecimento natural e sustentável.", note: "A ciência por trás dos seus resultados." },
+  { number: "01", title: "Treino Estratégico", text: "Exercícios de baixa intensidade e duração de até 20 minutos, pensados para facilitar a criação de uma rotina de movimento.", note: "Sem academia. Sem treinos intermináveis." },
+  { number: "02", title: "Alimentação Estratégica", text: "Um plano alimentar simples para os 7 dias, com refeições práticas e substituições para reduzir o improviso e facilitar a consistência.", note: "Comida simples. Rotina simples." },
+  { number: "03", title: "Regulação Hormonal", text: "O protocolo foi estruturado considerando a relação entre rotina, alimentação, movimento e os hormônios envolvidos no funcionamento do organismo feminino.", note: "Uma abordagem pensada para o corpo feminino." },
 ];
 
 export const reviews = [
