@@ -12,7 +12,7 @@ export const Route = createFileRoute("/")({
     { title: "Desafio 7D Mulher em Forma — Elimine até 5kg em 7 Dias" },
     { name: "description", content: "Participe do Desafio 7D Mulher em Forma e descubra como regular seus hormônios para emagrecer de verdade." },
     { property: "og:title", content: "Desafio 7D Mulher em Forma" },
-    { property: "og:description", content: "Elimine até 5kg em apenas 7 dias com o método da Polly Takao." },
+    { property: "og:description", content: "Elimine até 5kg em apenas 7 dias com o método da Camila Nogueira." },
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
   ] }), component: Index,
