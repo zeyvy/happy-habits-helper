@@ -51,6 +51,10 @@ export const reviews = [
     afterImage: "https://imgs.search.brave.com/Bs6lUZxAiw0msDAPUgVcikD5DtCE8v_1X3PjIyaO2zo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcuZnJlZXBpay5jb20vcHJlbWl1bS1waG90by90d28tc2hvdHMtd29tYW4td2l0aC1i/ZWxseS13aXRoLWV4Y2Vzcy1mYXQtdG9uZWQtc2xpbS1zdG9tYWNoLWJlZm9yZS1hZnRlci1sb3Npbmctd2VpZ2h0XzQwNzM0OC0yODQ1LmpwZz9zZW10PWFpc19oeWJyaWQmdz03NDAmcT04MA",
     quote: '"Eu vivia começando dieta na segunda e largando na quarta kkk. Dessa vez foi diferente pq tinha tudo organizado. Tô mto feliz com a evolução e já quero continuar!"',
   },
+  { name: "Nayara, 31 anos", result: "Aluna do 7D Seca & Desincha", beforeImage: "", afterImage: "", quote: "“Gente, comecei sem esperar muita coisa kkk e gostei mt da organização. Ter tudo no app facilitou demais. Obg ❤️”" },
+  { name: "Eloá, 28 anos", result: "Aluna do 7D Seca & Desincha", beforeImage: "", afterImage: "", quote: "“Sério, eu tava cansada de começar e parar toda hora kkk. Dessa vez consegui seguir direitinho. Amei as missões, fica bem mais fácil.”" },
+  { name: "Mirella, 36 anos", result: "Aluna do 7D Seca & Desincha", beforeImage: "", afterImage: "", quote: "“Amiga, obg 😂 Eu precisava de algo simples assim. Abro o app e já sei o que tenho que fazer no dia. Me ajudou mt a não ficar perdida.”" },
+  { name: "Thalita, 42 anos", result: "Aluna do 7D Seca & Desincha", beforeImage: "", afterImage: "", quote: "“Gostei mt, sério. É tudo bem organizado e não fica aquela coisa complicada. Faço minha missão, vejo o treino e sigo meu dia. Kkk finalmente algo simples.”" },
 ];
 
 export const products = [
